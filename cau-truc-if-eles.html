@@ -8,10 +8,19 @@
 <script>
     let value = prompt('What is the “official” name of JavaScript?');
     if(value == 'ECMAScript'){
-        alert('Right!')
+        alert('Right!');
     }else {
-        alert('Didn’t know? ECMAScript!')
+        alert('I Didn’t know? ECMAScript!');
     }
+    let pass = prompt('Password?', '');
+    if (pass == 'TheMaster') {
+        alert('Welcome!');
+    } else if (pass == null) {
+        alert('Canceled.');
+    } else {
+        alert('Wrong password');
+    }
+
 </script>
 </body>
 </html>
